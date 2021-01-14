@@ -10,8 +10,5 @@ public class MyhomeApplication {
 		SpringApplication.run(MyhomeApplication.class, args);
 	}
 
-	@Override
-	public int hashCode() {
-		return super.hashCode();
-	}
+
 }
