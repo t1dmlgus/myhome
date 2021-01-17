@@ -30,7 +30,7 @@ public class BoardController {
     @GetMapping("/list")
     public String list(Model model){
         Page<Board> boards = boardRepository.findAll(PageRequest.of(0, 20));
-
+                                                    // 기본
 
         model.addAttribute("boards", boards);
 
